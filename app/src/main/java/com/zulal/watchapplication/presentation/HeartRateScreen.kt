@@ -149,8 +149,8 @@ fun HeartRateScreen() {
                 onClick = { /* TODO: Resting Zone functionality */ },
                 label = { Text("Resting Zone", color = Color.White, fontSize = 12.sp) },
                 colors = ChipDefaults.chipColors(
-                    backgroundColor = Color(0xFF0A2B5E),
-                    contentColor = Color.White
+                    backgroundColor = PurpleAccent,
+                    contentColor = PurpleAccent
                 ),
                 modifier = Modifier
                     .width(120.dp)
